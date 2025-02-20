@@ -12,14 +12,6 @@ Heartwarming message to express your feelings.
 Embedded audio player with a romantic song.
 Easy customization for adding your own touch.
 
-## Usage
-Clone the repository to your local machine:
-
-`git clone https://github.com/swapniltake1/valentine-day-special.git`
-
-Open index.html in your web browser.
-Enjoy the Valentine's Day Special with your loved ones!
-
 ## Customize
 Feel free to customize the content to suit your preferences:
 
