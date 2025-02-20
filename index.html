@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Happy Birthday To You :)</title>
+    <link
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="image/png" href="./img/heart.svg" />
+    <link rel="stylesheet" href="style/style.css" />
+
+    <style>
+      #audio {
+          display: none;
+      }
+  </style>
+
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="one">
+        <h1 class="one">
+          Hey
+          <span>Laiba!!</span>
+        </h1>
+        <p class="two" id="greetingText">Another year older, but still stealing hearts effortlessly. 😉</p>
+      </div>
+      <div class="three">
+        <p>Oh, look at that—it's your birthday!!</p>
+      </div>
+      <div class="four">
+        <div class="text-box">
+          <p class="hbd-chatbox">
+            Should I write a whole Shakespearean sonnet? Nah, let's keep it smooth. 😎
+          </p>
+          <p class="fake-btn">Send</p>
+        </div>
+      </div>
+      <div class="five">
+        <p class="idea-1">At first, I thought of sending a simple "Happy Birthday"...</p>
+        <p class="idea-2">But that felt way too basic.</p>
+        <p class="idea-3">
+          So I thought, why not make it a little <strong>Special</strong>? Just like you. 😘
+        </p>
+        <p class="idea-4">Because,</p>
+        <p class="idea-5" id="specialText">
+          You're Special
+          <span>:)</span>
+        </p>
+        <p class="idea-6">
+          <span>S</span>
+          <span>O</span>
+        </p>
+      </div>
+      <div class="six">
+        <img src="img/vector.png" alt="" class = "girl-dp" id="imagePath" />
+        <div class="wish">
+          <h3 class="wish-hbd">Happy Birthday, Laiba!🎂</h3>
+          <h5 id="wishText">Roses are red, confetti is bright, 
+            But you, birthday star, outshine every light! ✨
+          </h5>
+          <audio id="audio" controls muted autoplay>
+            <source src="./song/song.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        </div>
+      </div>
+      <div class="seven">
+        <div class="baloons">
+          <img src="img/balloon.svg" alt="" />
+          <img src="img/smiling.svg" />
+          <img src="img/heart.svg" />
+          <img src="img/balloon.svg" alt="" />
+       
+          <img src="img/heart.svg" />
+          <img src="img/balloon.svg" alt="" />
+          <img src="img/music-note.svg" alt="" />
+          <img src="img/heart.svg" />
+          <img src="img/balloon.svg" alt="" />
+          <img src="img/heart.svg" />
+          <img src="img/balloon.svg" alt="" />
+          <img src="img/heart.svg" />
+          <img src="img/heart.svg" />
+          <img src="img/music-note.svg" alt="" />
+          <img src="img/smiling.svg" />
+          <img src="img/happy.svg" alt="" />
+          <img src="img/balloon.svg" alt="" />
+          <img src="img/heart.svg" />
+          <img src="img/smiling.svg" />
+        
+        </div>
+      </div>
+      <div class="eight">
+        <svg viewBox="0 0 40 40" xmlnssvg/heart.svg.org/2000/svg">
+        <circle cx="20" cy="20" r="20" />
+      </svg>
+        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="20" />
+        </svg>
+        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="20" />
+        </svg>
+        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="20" />
+        </svg>
+        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="20" />
+        </svg>
+        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="20" />
+        </svg>
+        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="20" />
+        </svg>
+        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="20" />
+        </svg>
+        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="20" />
+        </svg>
+      </div>
+      <div class="nine">
+        <p>Okay, now go back to Insta and let me know if this was smooth or extra cheesy. 😏</p>
+        <p id="replay">Or click here, if you wanna watch it again. 😁</p>
+        <p class="last-smile">:)</p>
+      </div>
+    </div>
+    <script>
+   
+      function playAudioAfterDelay(delay) {
+          setTimeout(function() {
+              var audio = document.getElementById("audio");
+              audio.muted = false;
+              audio.play().catch(function(error) {
+                  console.error("Error playing audio:", error);
+              });
+          }, delay);
+      }
+
+      playAudioAfterDelay(32000); 
+  </script>
+    
+  </body>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+  <script type="text/babel" src="script/main.js"></script>
+</html>
